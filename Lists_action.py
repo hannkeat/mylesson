@@ -6,6 +6,8 @@ if __name__ == '__main__':
         action = input().split()
 
         if action[0] == 'insert':
+            print(lists)
+            print(lists[1:])
             lists.insert(int(action[1]), int(action[2]))
 
         elif action[0] == 'remove':
@@ -24,8 +26,8 @@ if __name__ == '__main__':
             lists.reverse()
 
         elif action[0] == 'print':
-            print(lists, sep="\n")
-
+            # print(lists, sep="\n")
+            pass
 
 
 """
